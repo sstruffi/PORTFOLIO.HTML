@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio - Sara Truffi</title>
+    
+    <style>
+      { box-sizing: border-box; margin: 0; padding: 0;}
+      .container { max-width: 1200px; margin: 0 auto; padding 20px; }
+      
+      nav ul { list-style: none; }
+      nav ul li { display: inline; margin-right: 20px; }
+      nav a { text-decoration: none; font-family: Arial; font-size: 18px; color: #d14f9c; padding: 6px 10px;}
+      nav a:hover {color: #ffb6db;}
+      nav a:active { color: #aa2f79; }
+      nav a:visited { color: #c6428f; }
+      
+      h1 { font-family: Arial; margin-bottom: 30px; }
+      
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+      }
+      
+      .grid img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+      }
+      
+      .grid a { text-decoration: none;}
+    </style>
+  </head>
+  
+  <body>
+  <div class="container">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+      </ul>
+    </nav>
+    
+    <h1>My Projects</h1>
+    <div class="grid">
+      <a href="project1.html"><img src="images/project1.jpg" alt="Project 1 thumbnail"></a>
+      <a href="project2.html"><img src="images/project2.jpg" alt="Project 2 thumbnail"></a>
+      <a href="project3.html"><img src="images/project3.jpg" alt="Project 3 thumbnail"></a>
+      <a href="project4.html"><img src="images/project4.jpg" alt="Project 4 thumbnail"></a>
+    </div>
+    </div>
+    
+  </body>
+</html>
